@@ -31,6 +31,7 @@ function Ball(x,y,r) {
     } if (this.position.y > height-this.r) {
       this.position.y = height-this.r;
       this.velocity.y *= -0.8;
+	  this.velocity.x *= 0.99;
     }
   }
   this.draw = function() {
@@ -51,9 +52,6 @@ function Ball(x,y,r) {
     this.velocity.add(this.acceleration);
     this.velocity.mult(0.995); // air friction
     this.position.add(this.velocity); // add velocity to pos
-    if(this.position.y > height-this.r) {
-      this.velocity.x *= 0.99;
-    } // ground friction
   }
 }
 
