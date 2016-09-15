@@ -22,9 +22,8 @@ Open index.html. Double clicking it should work, but if it doesn't open with wha
 * Blue is velocity, this will change depending on the speed and direction of the ball.
 * Black is the grabber line from your mouse to the ball, the longer it is the harder it pulls the ball.
 
-**## Credits
+## Credits
 
 Code: Thomas Shaw
 Idea: Thomas Shaw
 
-**
