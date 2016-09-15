@@ -1,7 +1,7 @@
 # MAPS
 
 Mostly Accurate Physics Simulation
-Created from scratch by Thomas Shaw
+Created from scratch by Thomas Shaw with p5.js
 
 ## Instructions
 
@@ -45,9 +45,6 @@ Of course there are parts of the program that are unrealistic.
 
 I said mostly, didn't I?
 
+### Credits
 
-
-## Credits
-
-Code: Thomas Shaw
-Idea: Thomas Shaw
+I wrote the ball physics and drawing code on p5.js, a super awesome js library! Check it out [here](http://p5js.org/)
